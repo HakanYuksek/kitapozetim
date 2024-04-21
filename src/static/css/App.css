@@ -1,0 +1,25 @@
+.header-title{
+    background-color: #211F1F;
+    color: white;
+    font-size: xx-large;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.summary-card{
+    background-color: #211F1F;
+    color: white;
+    font-size: large;
+    text-align: center;
+    border: none;
+    transition: transform .2s
+}
+
+.summary-card:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+    color: red;
+}

@@ -31,3 +31,35 @@ export const getBookListForClassicBooks = () =>
         payload:[]        
     }
 )
+
+export const getBookListForPersonalBooks = () =>
+(
+    {
+        type: actionTypes.GET_BOOK_LIST_FOR_PERSONAL_BOOKS,
+        payload:[]        
+    }
+)
+
+export const getBookListForMangaBooks = () =>
+(
+    {
+        type: actionTypes.GET_BOOK_LIST_FOR_MANGA_BOOKS,
+        payload:[]        
+    }
+)
+
+export const getBookListForNovelBooks = () =>
+(
+    {
+        type: actionTypes.GET_BOOK_LIST_FOR_NOVEL_BOOKS,
+        payload:[]        
+    }
+)
+
+export const getBookListForHistoryBooks = () =>
+(
+    {
+        type: actionTypes.GET_BOOK_LIST_FOR_HISTORY_BOOKS,
+        payload:[]        
+    }
+)

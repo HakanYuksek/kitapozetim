@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, CardBody, CardGroup, CardHeader, CardImg, CardTitle, CarouselItem } from 'reactstrap'
+import { Card, CardBody, CardGroup, CardImg, CardTitle } from 'reactstrap'
 import classicImage from "../../static/img/classics.jpg"
 import historyImage from "../../static/img/history2.jpg"
 import fairyTaleImage from "../../static/img/fairyTale2.jpeg"

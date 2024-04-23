@@ -39,12 +39,42 @@ export const classicBookList = [
     {name:"Yer Altından Notlar", summary : "/summaries/classics/Yer Altından Notlar.txt", 
     img : "/img/classics/classic2.jpg"},
     
-    {name:"Rapunzel", summary : "/summaries/classics/rapunzel.txt",
-    img:"/img/classics/classic3.jpg"},
+    {name:"Genç Werther'in Acıları", summary : "/summaries/classics/Genc Wertherin Acıları.txt",
+    img:"/img/classics/classic3.jpeg"},
 
-    {name:"Güzel ve Çirkin Masalı", summary : "/summaries/classics/guzel_ve_cirkin.txt",
-    img:"/img/classics/classic4.jpg"},
+    {name:"Genç Bir Doktorun Anıları", summary : "/summaries/classics/Genc Bir Doktorun Anıları.txt",
+    img:"/img/classics/classic4.png"},
 
-    {name:"Çam Ağacı Masalı", summary : "/summaries/classics/cam_agaci_masali.txt",
+    {name:"Gurur ve Önyargı", summary : "/summaries/classics/Gurur ve Önyargı.txt",
     img:"/img/classics/classic5.jpg"},
+]
+
+
+export const personalBookList = [
+    {name:"Rezonans Kanunu", summary : "/summaries/personal/Rezonans Kanunu.txt",
+     img:"/img/personal/personal1.jpg"},
+
+    {name:"Seni Yoran Her şeyi Bırak", summary : "/summaries/personal/Seni Yoran Her şeyi Boral.txt", 
+    img : "/img/personal/personal2.jpg"},
+    
+    {name:"Ne Ekersen Onu Biçersin Değil!", summary : "/summaries/personal/Ne Ekersen Onu Biçersin.txt",
+    img:"/img/personal/personal3.jpg"},
+
+    {name:"Var mısın?", summary : "/summaries/personal/Var mısın.txt",
+    img:"/img/personal/personal4.jpg"},
+
+    {name:"Bilinç Altının Gücü", summary : "/summaries/personal/Bilinç Altının Gücü.txt",
+    img:"/img/personal/personal5.jpg"},
+]
+
+export const mangaBookList = [
+
+]
+
+export const novelBookList = [
+
+]
+
+export const historyBookList = [
+
 ]

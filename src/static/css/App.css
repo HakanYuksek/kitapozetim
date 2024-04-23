@@ -14,7 +14,7 @@
     font-size: large;
     text-align: center;
     border: none;
-    transition: transform .2s
+    transition: transform .2s;
 }
 
 .summary-card:hover{

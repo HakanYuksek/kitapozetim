@@ -71,7 +71,6 @@ export default class SummaryPage extends Component {
                 <FairyTaleBooks maxLimit = "5"></FairyTaleBooks>
                 <ClassicBooks maxLimit = "5"></ClassicBooks>
                 <PersonalBooks maxLimit = "5"></PersonalBooks>
-                <MangaBooks maxLimit = "5"></MangaBooks>
                 <NovelBooks maxLimit = "5"></NovelBooks>
                 <HistoryBooks maxLimit = "5"></HistoryBooks>
             </div>

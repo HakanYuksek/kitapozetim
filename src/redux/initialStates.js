@@ -1,7 +1,6 @@
 export const ChildBooks = "Çocuk Kitapları";
 export const ClassicBooks = "Klasik Kitaplar";
 export const Personal = "Kişisel Gelişim Kitapları";
-export const Manga = "Manga";
 export const Novel = "Roman";
 export const HistoryBooks = "Tarih Kitapları";
 
@@ -9,7 +8,6 @@ export const initialBookCategories = [
                                      {name:ChildBooks, link: "child"},
                                      {name:ClassicBooks, link:"classic"},
                                      {name:Personal, link:"personal"},
-                                     {name:Manga, link:"manga"}, 
                                      {name:Novel, link:"novel"},
                                      {name:HistoryBooks, link:"history"}]
 
@@ -72,9 +70,35 @@ export const mangaBookList = [
 ]
 
 export const novelBookList = [
+    {name:"Martin Eden", summary : "/summaries/novels/Martin Eden.txt",
+     img:"/img/novels/novel1.jpg"},
 
+    {name:"Kürk Mantolu Madonna", summary : "/summaries/novels/Kürk Mantolu Madonna.txt", 
+    img : "/img/novels/novel2.jpg"},
+    
+    {name:"Çavdar Tarlasındaki Çocuklar", summary : "/summaries/novels/Çavdar Tarlasındaki Çocuklar.txt",
+    img:"/img/novels/novel3.jpg"},
+
+    {name:"Otomatik Portakal", summary : "/summaries/novels/Otomatik Portakal.txt",
+    img:"/img/novels/novel4.jpg"},
+
+    {name:"Yere Yakın Yıldızlara Uzak", summary : "/summaries/novels/Yere Yakın Yıldızlara Uzak.txt",
+    img:"/img/novels/novel5.jpg"},
 ]
 
 export const historyBookList = [
+    {name:"Fatih Sultan Mehemmed Han", summary : "/summaries/history/Fatih Sultan Mehemmed Han.txt",
+     img:"/img/history/history1.jpg"},
 
+    {name:"Gazi Mustafa Kemal Atatürk", summary : "/summaries/history/Gazi Mustafa Kemal Atatürk.txt", 
+    img : "/img/history/history2.jpg"},
+    
+    {name:"Julius Caesar", summary : "/summaries/history/Julius Caesar.txt",
+    img:"/img/history/history3.jpg"},
+
+    {name:"Hayvanlardan Tanrılara - Sapiens", summary : "/summaries/history/Hayvanlardan Tanrılara - Sapiens.txt",
+    img:"/img/history/history4.jpg"},
+
+    {name:"Yakın Tarihin Gerçekleri", summary : "/summaries/history/Yakın Tarihin Gerçekleri.txt",
+    img:"/img/history/history5.jpg"},
 ]

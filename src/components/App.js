@@ -5,6 +5,8 @@ import { Route, Routes } from "react-router-dom";
 import FairyTaleBooks from "./main/FairyTaleBooks";
 import ClassicBooks from "./main/ClassicBooks";
 import PersonalBooks from "./main/PersonalBooks";
+import NovelBooks from "./main/NovelBooks";
+import HistoryBooks from "./main/HistoryBooks";
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <Route exact path ="child" element={<FairyTaleBooks></FairyTaleBooks>}></Route>
           <Route exact path ="classic" element={<ClassicBooks></ClassicBooks>}></Route>
           <Route exact path ="personal" element={<PersonalBooks></PersonalBooks>}></Route>
+          <Route exact path="novel" element = {<NovelBooks></NovelBooks>}></Route>
+          <Route exact path="history" element = {<HistoryBooks></HistoryBooks>}></Route>
         </Routes>
 
 

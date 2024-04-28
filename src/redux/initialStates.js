@@ -102,3 +102,5 @@ export const historyBookList = [
     {name:"Yakın Tarihin Gerçekleri", summary : "/summaries/history/Yakın Tarihin Gerçekleri.txt",
     img:"/img/history/history5.jpg"},
 ]
+
+export const searchResult = []

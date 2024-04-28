@@ -63,3 +63,11 @@ export const getBookListForHistoryBooks = () =>
         payload:[]        
     }
 )
+
+export const searchGivenBook = (bookName) =>
+(
+    {
+        type : actionTypes.SEARCH_BOOK,
+        payload : bookName
+    }
+)

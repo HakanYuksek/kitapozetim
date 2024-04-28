@@ -7,6 +7,7 @@ import personalBookListReducer from "./personalBookListReducer";
 import mangaBookListReducer from "./mangaBookListReducer";
 import novelBookListReducer from "./novelBookListReducer";
 import historyBookListReducer from "./historyBookListReducer";
+import searchBookReducer from "./searchBookReducer";
 
 const rootReducer = combineReducers(
     {
@@ -17,7 +18,8 @@ const rootReducer = combineReducers(
         personalBookListReducer,
         mangaBookListReducer,
         novelBookListReducer,
-        historyBookListReducer
+        historyBookListReducer,
+        searchBookReducer
     }
 );
 

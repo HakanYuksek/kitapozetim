@@ -1,18 +1,22 @@
 import { Container } from "reactstrap";
-import NavigationBar from "./menu/NavigationBar";
+import NavigationBar from "./NavigationBar";
 import SummaryPage from "./main/SummaryPage";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import FairyTaleBooks from "./main/FairyTaleBooks";
 import ClassicBooks from "./main/ClassicBooks";
 import PersonalBooks from "./main/PersonalBooks";
 import NovelBooks from "./main/NovelBooks";
 import HistoryBooks from "./main/HistoryBooks";
+import Search from "./main/Search";
 
 
 function App() {
+
+  var navigate = useNavigate();
+
   return (
     <div className="App">
-      <NavigationBar></NavigationBar>
+      <NavigationBar navigate = {navigate}></NavigationBar>
 
       <Container className="mt-4">
 
@@ -23,6 +27,7 @@ function App() {
           <Route exact path ="personal" element={<PersonalBooks></PersonalBooks>}></Route>
           <Route exact path="novel" element = {<NovelBooks></NovelBooks>}></Route>
           <Route exact path="history" element = {<HistoryBooks></HistoryBooks>}></Route>
+          <Route exact path="search" element = {<Search></Search>}></Route>
         </Routes>
 
 

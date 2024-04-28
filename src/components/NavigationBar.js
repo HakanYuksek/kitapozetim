@@ -1,13 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Col, Input, InputGroup, Nav, NavItem, NavLink, Navbar, NavbarBrand, Row } from 'reactstrap'
-import bookCategoryReducer from '../../redux/reducers/bookCategoryReducer'
-import * as actionTypes from "../../redux/actions/actionTypes"
 import { connect } from 'react-redux'
-import searchIcon from "../../static/img/search-icon.png"
-import { FaSearch } from 'react-icons/fa'
+import {bindActionCreators} from "redux";
+import * as action from "../redux/actions/bookListActions"
 
 class NavigationBar extends Component {
+
+    searchBook(event){
+        var bookName = event.target.value;
+        console.log(bookName);
+        this.props.dispatch(this.props.searchBook(bookName));
+        this.props.navigate("search");
+    }
+
+
     render() {
         return (
             <Navbar color="black">
@@ -32,6 +39,7 @@ class NavigationBar extends Component {
                     name="search"
                     placeholder="Kitap Ara..."
                     type="search"
+                    onChange={(event) => this.searchBook(event)}
                 />
             </Navbar>
         )
@@ -45,4 +53,13 @@ function mapStateToProps(state) {
     }
 }
 
-export default connect(mapStateToProps)(NavigationBar);
+function mapDispatchToProps(dispatch)
+{
+    return {
+        dispatch,
+        searchBook : bindActionCreators(action.searchGivenBook, dispatch) 
+    }
+}
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(NavigationBar);

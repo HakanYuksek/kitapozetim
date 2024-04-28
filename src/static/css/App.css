@@ -15,6 +15,9 @@
     text-align: center;
     border: none;
     transition: transform .2s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .summary-card:hover{
@@ -23,3 +26,11 @@
     transform: scale(1.1); 
     color: red;
 }
+
+.card-col {
+    flex: 0 0 20%; /* Kartların genişliği, %20 olarak ayarlandı */
+  }
+  
+  .card-col:nth-child(n+6) {
+    margin-top: 1rem; /* 6. karttan sonraki kartların üst kenar boşluğu ekledi */
+  }

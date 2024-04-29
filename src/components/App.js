@@ -8,6 +8,7 @@ import PersonalBooks from "./main/PersonalBooks";
 import NovelBooks from "./main/NovelBooks";
 import HistoryBooks from "./main/HistoryBooks";
 import Search from "./main/Search";
+import BookDetails from "./main/BookDetails";
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
           <Route exact path="novel" element = {<NovelBooks></NovelBooks>}></Route>
           <Route exact path="history" element = {<HistoryBooks></HistoryBooks>}></Route>
           <Route exact path="search" element = {<Search></Search>}></Route>
+          <Route exact path="book-details" element = {<BookDetails></BookDetails>}></Route>
+
         </Routes>
 
 

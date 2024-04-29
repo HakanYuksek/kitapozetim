@@ -71,3 +71,11 @@ export const searchGivenBook = (bookName) =>
         payload : bookName
     }
 )
+
+export const showBookDetails = (book) =>
+(
+    {
+        type : actionTypes.OPEN_DETAILS_BOOK,
+        payload : book
+    }
+)

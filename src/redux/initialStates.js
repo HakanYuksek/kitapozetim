@@ -104,3 +104,5 @@ export const historyBookList = [
 ]
 
 export const searchResult = []
+
+export const selectedBook =     {name:"", summary : "", img:""}

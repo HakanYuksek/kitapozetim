@@ -23,6 +23,7 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<SummaryPage />}></Route>
+          <Route exact path="kitapozetim" element={<SummaryPage />}></Route>
           <Route exact path ="child" element={<FairyTaleBooks></FairyTaleBooks>}></Route>
           <Route exact path ="classic" element={<ClassicBooks></ClassicBooks>}></Route>
           <Route exact path ="personal" element={<PersonalBooks></PersonalBooks>}></Route>

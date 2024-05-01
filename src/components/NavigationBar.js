@@ -20,7 +20,7 @@ class NavigationBar extends Component {
             <Navbar color="black">
                 <Nav>
 
-                    <NavbarBrand className='brand-link' href="/">
+                    <NavbarBrand className='brand-link' href="/kitapozetim">
                         KitapÖzetim
                     </NavbarBrand>
 

@@ -19,7 +19,7 @@ export default class SummaryPage extends Component {
                 <h2 className="header-title center-align mb-4 mb-4">--Aradığınız Bir Dünya Kitap Özeti Burada--</h2>
                 <hr></hr>
                 <CardGroup>
-                    <Link to="classic" className='ms-4 link'>
+                    <Link to="/classic" className='ms-4 link'>
 
                         <Card className='summary-card'>
                             <CardImg
@@ -35,7 +35,7 @@ export default class SummaryPage extends Component {
                             </CardBody>
                         </Card>
                     </Link>
-                    <Link to="history" className='ms-2 link'>
+                    <Link to="/history" className='ms-2 link'>
                         <Card className='summary-card'>
                             <CardImg
                                 className=''
@@ -51,7 +51,7 @@ export default class SummaryPage extends Component {
                             </CardBody>
                         </Card>
                     </Link>
-                    <Link to="child" className='ms-2 link' >
+                    <Link to="/child" className='ms-2 link' >
                         <Card className='summary-card'>
                             <CardImg
                                 alt={initialState.ChildBooks}

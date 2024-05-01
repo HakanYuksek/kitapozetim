@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/kitapozetim/static/css/main.f3632cc8.css",
+    "main.js": "/kitapozetim/static/js/main.5e0edec0.js",
+    "static/js/453.dda88b49.chunk.js": "/kitapozetim/static/js/453.dda88b49.chunk.js",
+    "static/media/classics.jpg": "/kitapozetim/static/media/classics.a92fdbb194ac5d350f9c.jpg",
+    "static/media/fairyTale2.jpeg": "/kitapozetim/static/media/fairyTale2.3c2868e0a752135c0413.jpeg",
+    "static/media/history2.jpg": "/kitapozetim/static/media/history2.6c5c17f965f87fdc8e30.jpg",
+    "index.html": "/kitapozetim/index.html",
+    "main.f3632cc8.css.map": "/kitapozetim/static/css/main.f3632cc8.css.map",
+    "main.5e0edec0.js.map": "/kitapozetim/static/js/main.5e0edec0.js.map",
+    "453.dda88b49.chunk.js.map": "/kitapozetim/static/js/453.dda88b49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3632cc8.css",
+    "static/js/main.5e0edec0.js"
+  ]
+}

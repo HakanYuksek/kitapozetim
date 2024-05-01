@@ -27,11 +27,10 @@ class BookDetails extends Component {
         this.forceUpdate();
     }
 
-    readSummary = () =>
-    {
+    readSummary = () => {
         fetch(process.env.PUBLIC_URL + this.state.selectedBook.summary)
             .then((r) => r.text())
-            .then(text  => {
+            .then(text => {
                 this.state.selectedBook.summary = text;
                 this.forceUpdate();
             });
@@ -44,7 +43,6 @@ class BookDetails extends Component {
             <div>
 
                 <h4 className='header-title mb-4 mb-4'>Kitap Özeti</h4>
-
 
                 <CardGroup>
                     <Col className='card-col'>
@@ -60,15 +58,14 @@ class BookDetails extends Component {
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col className='card-col'>
-                        <Card className='summary-card me-1 ms-1'>
-                            <CardBody>
-                                <CardText>
-                                    {this.state.selectedBook.summary}
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </Col>
+
+                    <Card className='summary-card-text me-1 ms-1'>
+                        <CardBody>
+                            <CardText>
+                                {this.state.selectedBook.summary}
+                            </CardText>
+                        </CardBody>
+                    </Card>
                 </CardGroup>
 
             </div>

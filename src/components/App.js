@@ -32,10 +32,7 @@ function App() {
           <Route exact path="book-details" element = {<BookDetails></BookDetails>}></Route>
 
         </Routes>
-
-
       </Container>
-
     </div>
   );
 }
